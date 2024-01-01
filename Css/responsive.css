@@ -1,0 +1,133 @@
+
+/*Mobile*//*Mobile*//*Mobile*//*Mobile*/
+@media (min-width:0px)and (max-width:991px){
+
+    /* NAV Start */
+
+    #myMenu ul li a:hover{
+        color: #ffffff !important;
+        z-index: 11 !important;
+        background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+        transition: var(--primary-transition);
+        }
+        #myMenu ul li a::after{
+            background-color: rgba(255, 0, 0, 0) !important;
+            content:"";
+            /* margin-bottom: -100px; */
+            width: 0%;
+            height: 0%;
+            background-image: url(../Images/Rorated-removebg-preview.png);
+            background-position: left 0px;
+            margin-right: 100px;
+            padding-left: 10%;
+            background-size: 20%;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 0;
+            right: 100;
+            transition: 600ms;
+            opacity: 0;
+        }
+        
+     #myMenu ul li:hover a::after{
+        opacity: 100;
+        z-index:0;
+        height: 100%;
+        left: 70px;
+            width: 100%;
+            
+            transition: var(--primary-transition) ;
+        
+        }
+            /* NAV Ends */
+
+            /* Banner Starts */
+        
+            
+.button svg{
+    width: 12px;
+    height: 12px;
+
+}
+.button{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 36px */
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+ .outline{
+    margin-left: -30px;
+}
+.button.outline{
+    color: var(--secondary-color);
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 7px 9px;
+    
+}
+
+
+            
+#banner #icon svg{
+    width: 16px;
+    height: 16px;
+}
+
+#banner .banner_cnt h4{
+font-size: 15px;
+}
+#banner .banner_cnt h1{
+    font-size: 34px;
+    
+}
+
+#banner .banner_cnt p{
+font-size: 15px;  
+}
+#banner .banner_cnt .button{
+    margin-right: 40px;
+}
+
+
+/* /* <!-- Social Starts --> */
+
+#banner .social {
+    
+    margin-top: -40px;
+}
+
+
+
+
+#banner .social ul li{
+    padding: 0px 10px;
+    display: inline-block;
+    
+}
+#banner .social ul li a{
+   
+    color: var(--secondary-color);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #F4F3F3;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+
+}
+            #banner .banner_img img{
+                max-width: 100%;
+            }
+
+
+            /* Banner Ends */
+
+        
+
+}
+/*Mobile*//*Mobile*//*Mobile*//*Mobile*/
